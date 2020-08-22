@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2B4DE"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/app_name"
+      android:textSize="60sp"
+      android:textColor="@android:color/white"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="35dp"
+      android:fontFamily="cursive"
+      android:textStyle="bold"
+      android:id="@+id/kutuphane_yazi"
+      />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/book"
+        android:layout_centerHorizontal="true"
+      android:layout_below="@id/kutuphane_yazi"
+        android:layout_marginTop="100dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uyegiris"
+        android:text="@string/login"
+        android:background="@color/ColorDarkPurple"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/uyekayit"
+        android:layout_marginBottom="25dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/uyekayit"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="@string/create_name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+
+        />
+
+
+</RelativeLayout>

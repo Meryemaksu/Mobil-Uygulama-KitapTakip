@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kitap Takip</string>
+    <string name="create_name">Üye Kayıt</string>
+    <string name="login">Üye Giriş</string>
+    <string name="kullanici_ad">Kullanıcı Adı</string>
+    <string name="e_mail">E-mail</string>
+    <string name="parola">Parola</string>
+    <string name="uye_ol">ÜYE OL</string>
+    <string name="giris_yap">GİRİŞ YAP</string>
+    <string name="kitapci_smi">Kitapciİsmi</string>
+    <string name="magaza_ismi">Mağaza İsmi</string>
+    <string name="fiyat">fiyat</string>
+    <string name="kitap_adeti">Kitap Adeti:</string>
+    <string name="yazar_adi">Yazar adı:</string>
+    <string name="kitap_ismi">Kitap ismi:</string>
+    <string name="rafyeri">rafyeri</string>
+    <string name="kac_adet">Kaç adet</string>
+</resources>

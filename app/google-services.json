@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "6832173560",
+    "firebase_url": "https://kutuphanem81.firebaseio.com",
+    "project_id": "kutuphanem81",
+    "storage_bucket": "kutuphanem81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6832173560:android:4faea8692a708f7d0ce60d",
+        "android_client_info": {
+          "package_name": "com.example.ktphanem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6832173560-6ng993thmrbudb69ebqngu3393jrm566.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ktphanem",
+            "certificate_hash": "9a3d28e6b6cd7703c1a28f400e5841ad0ac82585"
+          }
+        },
+        {
+          "client_id": "6832173560-4aq24puis4kbvjtgsuh8knbiu070u8rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYespXEUAckqeyfTky4bKI_8ZnQuVrCK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6832173560-4aq24puis4kbvjtgsuh8knbiu070u8rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

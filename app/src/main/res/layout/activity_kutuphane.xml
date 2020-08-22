@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kutuphaneActivity">
+    <include layout="@layout/actionbar"
+        android:id="@+id/actionbarlogin"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çıkış yap"
+        android:layout_marginLeft="275dp"
+        android:textColor="@color/giris_kayit_color"
+        android:id="@+id/cikisyap"
+        android:textSize="15dp"
+        android:background="@color/ColorDarkPurple"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kitap Ekle"
+        android:layout_below="@id/actionbarlogin"
+        android:id="@+id/kitapekle"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kitap Listele"
+        android:id="@+id/kitaplisetele"
+        android:layout_below="@id/kitapekle"
+        />
+
+
+</RelativeLayout>
